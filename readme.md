@@ -24,7 +24,7 @@ ProteCMS es gestor para protectoras de animales. Un proyecto que ofrece la posib
 
 #### Homestead
 
-Descarga e instala Homestead desde el [sitio oficial](https://laravel.com/docs/5.3/homestead), sigue las instrucciones de instalación. Ten en cuenta que necesitarás [Vagrant](https://vagrantup.com) y [VirtualBox](https://www.virtualbox.org) para poder utilizar Homestead.
+Descarga e instala Homestead desde el [sitio oficial](https://laravel.com/docs/5.6/homestead), sigue las instrucciones de instalación. Ten en cuenta que necesitarás [Vagrant](https://vagrantup.com) y [VirtualBox](https://www.virtualbox.org) para poder utilizar Homestead.
 
 Añade ProteCMS a tu archivo Homestead.yaml usando la siguiente configuración:
 
@@ -52,7 +52,7 @@ Descarga ProteCMS a tu carpeta `~/Code` usando el siguiente comando:
 git clone git@github.com:protecms/web.git ~/protecms
 ```
 
-Duplica el archivo _.env.example_ y renómbralo como _.env_. Cambia la línea 5 por:
+Duplica el archivo _.env.example_ y renómbralo como _.env. Cambia la línea 5 por:
 
 ```bash
 APP_URL=http://protecms.local
