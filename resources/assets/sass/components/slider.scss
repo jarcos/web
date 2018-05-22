@@ -1,0 +1,72 @@
+.slider {
+  width: 100%;
+  min-height: 700px;
+  margin-top: 3rem;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+
+  @include media-breakpoint-down(md) {
+    margin-top: 0;
+    min-height: inherit;
+    margin-bottom: 2rem;
+  }
+
+  .container {
+    background: url(/images/home2.jpg) no-repeat right center;
+    background-size: contain;
+
+    @include media-breakpoint-down(md) {
+      background: none;
+    }
+
+    padding: 5rem 0;
+
+    @include media-breakpoint-down(md) {
+      padding: 0 0 3rem 0;
+    }
+  }
+
+  .text {
+    color: #242A27;
+    line-height: 35px;
+
+    h1 {
+      font-size: 2em;
+
+      @include media-breakpoint-down(md) {
+        font-size: 1.6em;
+      }
+
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+
+    p {
+      margin-top: 1rem;
+      margin-bottom: 5rem;
+    }
+  }
+
+  .actions {
+    margin-top: 2rem;
+
+    .btn:first-child {
+      margin-right: 2rem;
+    }
+
+    @include media-breakpoint-down(md) {
+      margin-top: 0;
+
+      text-align: center;
+
+      .btn {
+        margin-bottom: 2rem;
+      }
+
+      .btn:first-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+@import "_colors.scss";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500");
+@import "~bootstrap/scss/bootstrap";
+@import "~animate.css";
+
+body {
+  background-color: #fff;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+
+.btn {
+  transition: all 300ms;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+select.form-control:not([size]):not([multiple]) {
+  height: inherit;
+}
+
+@import "components/header";
+@import "components/footer";
+@import "components/slider";
+@import "components/stats";
+@import "components/features";
+@import "components/demo";
+@import "components/new_shelter";
+@import "components/shelters";
+@import "components/contact";
+@import "components/terms";
+@import "components/policy";

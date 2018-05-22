@@ -1,0 +1,43 @@
+footer {
+  padding: 5rem 0 2rem 0;
+  margin-bottom: 2rem;
+  font-weight: 400;
+
+  ul {
+    list-style: none;
+    padding-left: 20px;
+
+    li {
+      padding: 5px;
+
+      a {
+        color: #333;
+
+        &:hover,
+        &:active {
+          color: $primary-color;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .social {
+    @include media-breakpoint-down(sm) {
+      margin-top: 3rem;
+    }
+  }
+
+  .copyright {
+    font-weight: 300;
+  }
+
+  .author {
+    font-weight: 300;
+    img.avatar {
+      max-height: 3rem;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+  }
+}

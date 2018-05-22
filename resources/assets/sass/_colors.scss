@@ -1,0 +1,21 @@
+$primary-color: #62a8ea;
+$success-color: #66BB6A;
+$info-color: #4DD0E1;
+$danger-color: #F44336;
+$warning-color: #F9A825;
+$secondary-color: #BDBDBD;
+
+$theme-colors: (
+        "primary": $primary-color,
+        "success": $success-color,
+        "info": $info-color,
+        "danger": $danger-color,
+        "warning": $warning-color,
+  //"secondary": $secondary-color,
+);
+
+$primary: $primary-color;
+
+.btn-primary, .btn-outline-primary:hover, .btn-outline-success:hover, .btn-secondary, .btn-success {
+  color: #fff !important;
+}

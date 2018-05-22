@@ -1,0 +1,54 @@
+.predemo {
+  background-image: url("/images/home.jpg");
+  height: 250px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.demo {
+  background-color: #f6f9fc;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+
+  @include media-breakpoint-down(sm) {
+    padding-top: 5rem;
+  }
+
+  .demo-item {
+    margin-bottom: 10rem;
+
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 4rem;
+    }
+
+    i {
+      margin-bottom: 2rem;
+
+      @include media-breakpoint-down(md) {
+        display: block;
+        margin: 0 auto;
+      }
+    }
+
+    h3 {
+      margin-bottom: 2rem;
+
+      @include media-breakpoint-down(md) {
+        text-align: center;
+      }
+    }
+
+    p {
+      text-align: justify;
+      line-height: 2;
+    }
+
+    @include media-breakpoint-down(sm) {
+      img {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+.shelters-header {
+  background: url(/images/home5.jpg) 50% no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin-top: 4rem;
+}
+
+.shelters {
+  margin-top: 4rem;
+  margin-bottom: 7rem;
+
+  h2 {
+    text-align: center;
+  }
+
+  p.description {
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+  }
+
+  .card-columns {
+    @include media-breakpoint-only(xs) {
+      column-count: 1;
+    }
+    @include media-breakpoint-only(sm) {
+      column-count: 2;
+    }
+    @include media-breakpoint-only(md) {
+      column-count: 3;
+    }
+    @include media-breakpoint-only(lg) {
+      column-count: 3;
+    }
+    @include media-breakpoint-up(lg) {
+      column-count: 4;
+    }
+  }
+
+  .card {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+
+    .logo {
+      width:  120px;
+      height: 120px;
+      margin: 0 auto;
+      background-position: 50% 50%;
+      background-repeat:   no-repeat;
+      background-size:     cover;
+    }
+
+    p {
+      font-size: 0.9em;
+      color: #212529;
+      margin-top: 1rem;
+      font-weight: 400;
+    }
+
+    &:hover {
+      background-color: $light;
+    }
+  }
+}

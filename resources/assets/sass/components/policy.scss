@@ -1,0 +1,19 @@
+.policy-header {
+  background: url(/images/home3.jpg) 50% no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin-top: 4rem;
+}
+
+.policy {
+  margin-top: 3rem;
+  margin-bottom: 7rem;
+
+  .card {
+    border: 0;
+  }
+
+  h2 {
+    text-align: center;
+  }
+}

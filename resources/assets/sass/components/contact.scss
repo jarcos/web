@@ -1,0 +1,62 @@
+.form-header {
+  background: url(/images/home4.jpg) 50% no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin-top: 4rem;
+}
+
+.form {
+  margin-top: 3rem;
+  margin-bottom: 7rem;
+
+  .card {
+    border: 0;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  form {
+    label {
+      font-weight: 400;
+    }
+
+    select {
+      text-indent: 5px;
+    }
+
+    .form-group {
+      margin-bottom: 2rem;
+    }
+
+    .form-control {
+      border-radius: 0;
+      border: 0;
+      padding: 1rem;
+
+      &::placeholder {
+        color: #ababab;
+        opacity: 1;
+      }
+
+      &:-ms-input-placeholder {
+        color: #ababab;
+      }
+
+      &:-ms-input-placeholder {
+        color: #ababab;
+      }
+    }
+
+    .input-group-text {
+      border-radius: 0;
+      border: 0;
+    }
+
+    h4 {
+      margin-bottom: 2rem;
+      font-weight: 300;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.stats {
+  background-color: $primary;
+  padding: 2rem;
+  color: #fff;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: 300;
+  }
+
+  .stats-item {
+    background-color: inherit;
+    border: 0;
+    text-align: center;
+    
+    h4 {
+      font-size: 1em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      overflow-wrap: normal;
+    }
+
+    p {
+      font-size: 2em;
+      margin-bottom: 0;
+    }
+  }
+}
