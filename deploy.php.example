@@ -1,0 +1,54 @@
+<?php
+
+namespace Deployer;
+
+require 'recipe/laravel.php';
+require 'recipe/cachetool.php';
+
+// Project name
+set('application', 'web');
+
+// Project repository
+set('repository', 'git@github.com:protecms/web.git');
+
+// [Optional] Allocate tty for git clone. Default value is false.
+set('git_tty', true);
+
+// Shared files/dirs between deploys
+add('shared_files', []);
+
+// Writable dirs by web server
+set('allow_anonymous_stats', false);
+
+// Hosts
+
+host('xxxxxxxxx')
+    ->set('deploy_path', '/var/www/{{application}}')
+    ->user('xxxxxxxxx')
+    ->forwardAgent(false)
+    ->set('branch', 'master')
+    ->set('cachetool', '/var/run/php/php7.2-fpm.sock');
+
+// Tasks
+
+task('build', function () {
+    run('cd {{release_path}} && build');
+});
+
+task('npm', function () {
+    runLocally('yarn run prod');
+
+    upload('public/build', '{{release_path}}/public');
+    upload('public/mix-manifest.json', '{{release_path}}/public');
+});
+
+after('deploy:symlink', 'cachetool:clear:opcache');
+
+// [Optional] if deploy fails automatically unlock.
+after('deploy:vendors', 'npm');
+after('deploy:failed', 'deploy:unlock');
+
+// Migrate database before symlink new release.
+
+//before('deploy:symlink', 'artisan:migrate');
+
