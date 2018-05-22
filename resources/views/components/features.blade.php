@@ -19,7 +19,7 @@
             <div class="feature-item col-12 col-sm-6 col-md-4 card wow fadeInUp">
                 <i class="fas fa-sync-alt fa-fw fa-3x"></i>
                 <h4>Actualizaciones</h4>
-                <p>Se van aplicando mejoras y correciones automáticamente. Además, las protectoras van aportando ideas, sugerencias y reportan errores que son implementadas o corregidos en poco tiempo.</p>
+                <p>Se van aplicando mejoras y correcciones automáticamente. Además, las protectoras van aportando ideas, sugerencias y reportan errores que son implementadas o corregidos en poco tiempo.</p>
             </div>
             <div class="feature-item col-12 col-sm-6 col-md-4 card wow fadeInUp">
                 <i class="fas fa-shield-alt fa-fw fa-3x"></i>

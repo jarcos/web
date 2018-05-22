@@ -11,7 +11,7 @@
                 <p>Cada asociación tiene su propia página web donde se mostrarán artículos, páginas, formularios y animales.</p>
                 <p>Se puede configurar aspectos de diseño como el color predominante, cabecera, logo, bloques y algunos aspectos más.</p>
                 <p>También existe la posibilidad de deshabilitar la página web y usar el proyecto para administrar la asociación a través de su panel de administración.</p>
-                <p>La página web está diseñado para que funcione tanto en pantallas grandes como en pantallas pequeñas como móviles o tablets.</p>
+                <p>La página web está diseñada para que funcione tanto en pantallas grandes como en pantallas pequeñas como móviles o tablets.</p>
             </div>
         </div>
         <div class="row demo-item">

@@ -7,7 +7,7 @@
                     Protectoras de Animales
                 </h1>
 
-                <p>ProteCMS es un software de gestión gratuito para asociaciones protectoras de animales. Un proyecto que ofrece la posibilidad de tener una página web. Cada protectora tendrá total libertad y podrán gestionar todo a través de un completo panel de administración.</p>
+                <p>ProteCMS es un software de gestión gratuito para asociaciones protectoras de animales. Un proyecto que ofrece la posibilidad de tener una página web. Cada protectora tendrá total libertad y podrá gestionar todo a través de un completo panel de administración.</p>
             </div>
 
             <div class="actions">
