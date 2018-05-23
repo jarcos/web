@@ -49,7 +49,7 @@ Añade la siguiente línea a tu archivo hosts:
 Descarga ProteCMS a tu carpeta `~/Code` usando el siguiente comando:
 
 ```bash
-git clone git@github.com:protecms/web.git ~/protecms
+git clone git@github.com:protecms/web.git ~/Code/protecms
 ```
 
 Duplica el archivo _.env.example_ y renómbralo como _.env_. Cambia la línea 5 por:
