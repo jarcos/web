@@ -20,11 +20,11 @@
             </div>
             <div class="col-12 col-md-6 social">
                 <div class="row">
-                    <div class="col-12 text-center mb-5">
+                    <div class="col-12 text-center mb-3">
                         <p>Redes sociales de proyecto</p>
                     </div>
                 </div>
-                <div class="row text-center">
+                <div class="icons row text-center">
                     <div class="col-4">
                         <a href="https://facebook.com/protecms"><i class="fab fa-facebook fa-fw fa-3x" title="Facebook ProteCMS"></i></a>
                     </div>

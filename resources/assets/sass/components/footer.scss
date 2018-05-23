@@ -26,6 +26,11 @@ footer {
     @include media-breakpoint-down(sm) {
       margin-top: 3rem;
     }
+
+    .icons {
+      margin: 0 auto;
+      max-width: 300px;
+    }
   }
 
   .copyright {
