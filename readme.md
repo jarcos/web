@@ -15,7 +15,7 @@ ProteCMS es gestor para protectoras de animales. Un proyecto que ofrece la posib
 
 ### Requisitos
 
-- [Homestead](https://laravel.com/docs/5.3/homestead)
+- [Homestead](https://laravel.com/docs/5.6/homestead)
 - [NodeJS(npm)](https://nodejs.org/)
 - [Composer](https://getcomposer.org/)
 - [Yarn](https://yarnpkg.com/en/)
@@ -52,7 +52,7 @@ Descarga ProteCMS a tu carpeta `~/Code` usando el siguiente comando:
 git clone git@github.com:protecms/web.git ~/protecms
 ```
 
-Duplica el archivo _.env.example_ y renómbralo como _.env. Cambia la línea 5 por:
+Duplica el archivo _.env.example_ y renómbralo como _.env_. Cambia la línea 5 por:
 
 ```bash
 APP_URL=http://protecms.local
