@@ -62,6 +62,7 @@ Sitúate en la carpeta `~/Code/protecms` y ejecuta los siguientes comandos:
 
 ```bash
 composer install
+php artisan key:generate
 yarn dev
 ```
 
