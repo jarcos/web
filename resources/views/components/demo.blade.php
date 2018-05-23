@@ -18,8 +18,8 @@
             <div class="col-12 col-md-4 text-left wow fadeInLeft">
                 <i class="fas fa-user-shield fa-fw fa-3x"></i>
                 <h3>Acceso</h3>
-                <p>Cada asociación tendrá acceso a un panel de administración privado donde podrá administrar todos los aspectos de la asociación, como pueden ser: Animales, Artículos, Formularios, Archivos, Finanzas, Calendario, Tareas, Salud de los animales y muchos aspectos más.</p>
-                <p>Los administradores de la asociación podrán dar permisos a los voluntarios para que sólo accedan a las zonas deseadas.</p>
+                <p class="text-left">Cada asociación tendrá acceso a un panel de administración privado donde podrá administrar todos los aspectos de la asociación, como pueden ser: Animales, Artículos, Formularios, Archivos, Finanzas, Calendario, Tareas, Salud de los animales y muchos aspectos más.</p>
+                <p class="text-left">Los administradores de la asociación podrán dar permisos a los voluntarios para que sólo accedan a las zonas deseadas.</p>
             </div>
             <div class="col-12 col-md-6 ml-auto wow fadeInRight">
                 <img src="{{ asset('images/demo/login.jpg') }}" alt="" class="img-fluid">
